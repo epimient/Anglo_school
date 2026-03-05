@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Anglo Colombia School - Institución educativa bilingüe de calendario B en Barranquilla. Liderazgo, Amor y Excelencia. Nivel A+ ICFES." />
+    <title>Anglo Colombia School | Barranquilla — Liderazgo, Amor, Excelencia</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+</head>
+
+<body>
+
+    <!-- ============================================================
+     NAVBAR
+============================================================ -->
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">
+                <img src="images/logo_nav.svg" alt="Anglo Colombia School" class="nav-logo-svg">
+                <div class="brand-text-wrapper">
+                    <span class="brand-name">Anglo Colombia School</span>
+                    <span class="brand-tagline">Liderazgo · Amor · Excelencia</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-label="Menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav align-items-lg-center gap-lg-1">
+                    <li class="nav-item"><a class="nav-link" href="#about">El Colegio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Nuestro Colegio</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#about"><i class="bi bi-info-circle me-2"></i>¿Quiénes
+                                    Somos?</a></li>
+                            <li><a class="dropdown-item" href="#mision-vision"><i class="bi bi-eye me-2"></i>Misión y
+                                    Visión</a></li>
+                            <li><a class="dropdown-item" href="#valores"><i class="bi bi-star me-2"></i>Valores</a></li>
+                            <li><a class="dropdown-item" href="#modelo-pedagogico"><i
+                                        class="bi bi-lightbulb me-2"></i>Modelo Pedagógico</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.acsbarranquilla.edu.co/wp-content/uploads/2025/08/Manual-de-convivencia-2025-2026.pdf"
+                                    target="_blank"><i class="bi bi-file-earmark-pdf me-2"></i>Manual de Convivencia</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.acsbarranquilla.edu.co/wp-content/uploads/2020/12/reglamento_interno_trabajo.pdf"
+                                    target="_blank"><i class="bi bi-file-earmark-ruled me-2"></i>Reglamento Interno</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Académico</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#niveles"><i class="bi bi-mortarboard me-2"></i>Niveles
+                                    Educativos</a></li>
+                            <li><a class="dropdown-item" href="#modelo-pedagogico"><i
+                                        class="bi bi-diagram-3 me-2"></i>Modelo Pedagógico</a></li>
+                            <li><a class="dropdown-item" href="#certificaciones"><i
+                                        class="bi bi-patch-check me-2"></i>Certificaciones</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.acsbarranquilla.edu.co/wp-content/uploads/2025/08/Manual-de-convivencia-2025-2026.pdf"
+                                    target="_blank"><i class="bi bi-file-earmark-pdf me-2"></i>Manual de Convivencia</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Servicios</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#servicios"><i class="bi bi-grid me-2"></i>Servicios
+                                    Académicos</a></li>
+                            <li><a class="dropdown-item" href="#servicios"><i
+                                        class="bi bi-bus-front me-2"></i>Transporte</a></li>
+                            <li><a class="dropdown-item" href="#servicios"><i
+                                        class="bi bi-egg-fried me-2"></i>Biofood</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#noticias">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link nav-cta-btn" href="#contacto">Admisiones</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+     HERO CAROUSEL
+============================================================ -->
+    <section id="hero">
+        <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5500">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="hero-slide" style="background-image:url('images/hero_main.png');">
+                        <div class="container hero-content">
+                            <div class="row">
+                                <div class="col-lg-8 col-xl-7">
+                                    <p class="hero-eyebrow"><i class="bi bi-patch-check-fill me-2"></i>Nivel A+ ICFES ·
+                                        Certificación EFQM</p>
+                                    <h1 class="hero-title">Formando <span class="accent-word">Líderes</span> del Mañana
+                                    </h1>
+                                    <p class="hero-subtitle">Un colegio bilingüe de excelencia en Barranquilla, donde
+                                        cada estudiante descubre su máximo potencial.</p>
+                                    <div class="hero-actions">
+                                        <a href="#contacto" class="btn-hero-primary">Solicitar Admisión <i
+                                                class="bi bi-arrow-right ms-1"></i></a>
+                                        <a href="#about" class="btn-hero-outline">Conoce el Colegio</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="hero-slide" style="background-image:url('images/hero_students.jpg');">
+                        <div class="container hero-content">
+                            <div class="row">
+                                <div class="col-lg-8 col-xl-7">
+                                    <p class="hero-eyebrow"><i class="bi bi-translate me-2"></i>Educación Bilingüe ·
+                                        Inglés y Español</p>
+                                    <h1 class="hero-title">Educación con <span class="accent-word">Amor</span> y
+                                        Propósito</h1>
+                                    <p class="hero-subtitle">Pedagogía Conceptual que desarrolla las dimensiones
+                                        afectiva, cognitiva y expresiva de cada estudiante.</p>
+                                    <div class="hero-actions">
+                                        <a href="#niveles" class="btn-hero-primary">Niveles Académicos <i
+                                                class="bi bi-arrow-right ms-1"></i></a>
+                                        <a href="#modelo-pedagogico" class="btn-hero-outline">Nuestro Modelo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="hero-slide" style="background-image:url('images/hero_preschool.jpg');">
+                        <div class="container hero-content">
+                            <div class="row">
+                                <div class="col-lg-8 col-xl-7">
+                                    <p class="hero-eyebrow"><i class="bi bi-geo-alt-fill me-2"></i>Barranquilla ·
+                                        Calendario B</p>
+                                    <h1 class="hero-title">Un Campus de <span class="accent-word">Excelencia</span></h1>
+                                    <p class="hero-subtitle">Instalaciones modernas en la Antigua Vía Puerto Colombia,
+                                        diseñadas para el aprendizaje del siglo XXI.</p>
+                                    <div class="hero-actions">
+                                        <a href="#servicios" class="btn-hero-primary">Ver Servicios <i
+                                                class="bi bi-arrow-right ms-1"></i></a>
+                                        <a href="#contacto" class="btn-hero-outline">Contáctanos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <i class="bi bi-chevron-left" style="font-size:1.3rem;"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <i class="bi bi-chevron-right" style="font-size:1.3rem;"></i>
+            </button>
+        </div>
+        <a href="#stats-bar" class="hero-scroll"><i class="bi bi-chevron-double-down"></i><span>Explorar</span></a>
+    </section>
+
+    <!-- ============================================================
+     STATS BAR
+============================================================ -->
+    <section id="stats-bar">
+        <div class="container">
+            <div class="row g-0 justify-content-center">
+                <div class="col-6 col-md-3 stat-item reveal">
+                    <div class="stat-number" data-target="30" data-suffix="+">30+</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+                <div class="col-6 col-md-3 stat-item reveal reveal-delay-1">
+                    <div class="stat-number" data-target="1200" data-suffix="+">1200+</div>
+                    <div class="stat-label">Estudiantes Activos</div>
+                </div>
+                <div class="col-6 col-md-3 stat-item reveal reveal-delay-2">
+                    <div class="stat-number" data-target="98" data-suffix="%">98%</div>
+                    <div class="stat-label">Graduados Universitarios</div>
+                </div>
+                <div class="col-6 col-md-3 stat-item reveal reveal-delay-3">
+                    <div class="stat-number" data-target="4">4</div>
+                    <div class="stat-label">Niveles Académicos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     ABOUT — QUIÉNES SOMOS
+============================================================ -->
+    <section id="about" class="section-pad">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 reveal-left">
+                    <div class="about-image-wrapper">
+                        <img src="images/academic_life.jpg" alt="Estudiantes en clase — Anglo Colombia School"
+                            class="about-image-main" />
+                        <div class="about-badge">
+                            <span class="badge-num">A+</span>
+                            <span class="badge-text">ICFES<br>Muy Superior</span>
+                        </div>
+                        <!-- Andres Bello Tag -->
+                        <div class="andres-bello-tag reveal-bottom">
+                            <img src="images/logo_andres_bello.png" alt="Premio Andrés Bello" class="img-fluid"
+                                style="max-height: 40px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 reveal-right">
+                    <span class="section-eyebrow">¿Quiénes Somos?</span>
+                    <h2 class="section-title">Una comunidad educativa de <span class="text-accent">excelencia</span>
+                    </h2>
+                    <div class="title-underline" style="margin:1rem 0 1.5rem 0;"></div>
+                    <p class="mb-3">El <strong>Anglo Colombia School</strong> es una institución educativa privada,
+                        mixta y bilingüe de Calendario B, ubicada en la Antigua Vía Puerto Colombia en Barranquilla. Con
+                        más de tres décadas de historia, somos referente de excelencia académica en la región Caribe
+                        colombiana.</p>
+                    <p class="mb-3">Aplicamos la <strong>Pedagogía Conceptual</strong>, un modelo que estimula las
+                        habilidades de los estudiantes desde temprana edad, integrando las dimensiones afectiva,
+                        cognitiva y expresiva del aprendizaje en un entorno contemporáneo y humanista.</p>
+                    <p class="mb-4">Contamos con certificación <strong>EFQM</strong> (European Foundation for Quality
+                        Management) bajo los lineamientos del Marco Europeo para la gestión de calidad, y somos
+                        reconocidos por el ICFES con nivel <strong>A+ Muy Superior</strong>.</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-3 p-3 rounded-3 bg-light">
+                                <i class="bi bi-globe2 text-primary fs-4"></i>
+                                <div>
+                                    <div class="fw-700 small text-dark fw-bold">Bilingüe</div>
+                                    <div class="text-muted" style="font-size:.8rem;">Inglés — Español</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-3 p-3 rounded-3 bg-light">
+                                <i class="bi bi-calendar3 text-primary fs-4"></i>
+                                <div>
+                                    <div class="fw-bold small text-dark">Calendario B</div>
+                                    <div class="text-muted" style="font-size:.8rem;">Jornada Completa</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-3 p-3 rounded-3 bg-light">
+                                <i class="bi bi-award text-primary fs-4"></i>
+                                <div>
+                                    <div class="fw-bold small text-dark">EFQM Certificado</div>
+                                    <div class="text-muted" style="font-size:.8rem;">Calidad Europea</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-3 p-3 rounded-3 bg-light">
+                                <i class="bi bi-person-check text-primary fs-4"></i>
+                                <div>
+                                    <div class="fw-bold small text-dark">Mixto</div>
+                                    <div class="text-muted" style="font-size:.8rem;">Inclusivo y diverso</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     MISIÓN & VISIÓN
+============================================================ -->
+    <section id="mision-vision" class="section-pad">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-eyebrow">Nuestra Identidad</span>
+                <h2 class="section-title">Misión y Visión</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 reveal reveal-delay-1">
+                    <div class="mv-card">
+                        <div class="mv-icon-wrap mv-icon-blue"><i class="bi bi-bullseye"></i></div>
+                        <h3 class="h4 mb-3">Nuestra Misión</h3>
+                        <p class="text-muted">Somos una institución educativa bilingüe que promueve un Sistema de
+                            Gestión de Calidad, dando cumplimiento a la legislación nacional e internacional (EFQM y
+                            Marco Europeo). Estimulamos las habilidades y destrezas de nuestros estudiantes desde
+                            temprana edad mediante la <strong>Pedagogía Conceptual</strong>, formando seres humanos
+                            íntegros comprometidos con el desarrollo de su comunidad y el mundo.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 reveal reveal-delay-2">
+                    <div class="mv-card">
+                        <div class="mv-logo-watermark">
+                            <img src="images/logo_main.svg" alt="" class="footer-logo-svg"
+                                style="opacity: 0.07; position: absolute; right: -20px; bottom: -20px; height: 120px;">
+                        </div>
+                        <div class="mv-icon-wrap mv-icon-gold"><i class="bi bi-telescope"></i></div>
+                        <h3 class="h4 mb-3">Nuestra Visión</h3>
+                        <p class="text-muted">Ser el colegio líder en educación bilingüe de la región, con los más altos
+                            estándares de calidad y reconocimiento por la innovación pedagógica. Para 2030 aspiramos a
+                            ser el referente de excelencia educativa en el Caribe colombiano, formando ciudadanos
+                            globales con valores sólidos, pensamiento crítico y vocación de servicio.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal reveal-delay-1">
+                    <div class="mv-card text-center">
+                        <div class="mv-icon-wrap mv-icon-blue mx-auto"><i class="bi bi-flag-fill"></i></div>
+                        <h4 class="h5 mb-2">Filosofía</h4>
+                        <p class="text-muted small">Creemos en el desarrollo integral del ser humano: su dimensión
+                            cognitiva, afectiva y expresiva como bases del aprendizaje significativo.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal reveal-delay-2">
+                    <div class="mv-card text-center">
+                        <div class="mv-icon-wrap mv-icon-gold mx-auto"><i class="bi bi-heart-fill"></i></div>
+                        <h4 class="h5 mb-2">Objetivos</h4>
+                        <p class="text-muted small">Garantizar una educación de calidad, fomentar el bienestar
+                            estudiantil, promover la innovación pedagógica y fortalecer la comunidad escolar.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal reveal-delay-3">
+                    <div class="mv-card text-center">
+                        <div class="mv-icon-wrap mv-icon-blue mx-auto"><i class="bi bi-shield-check"></i></div>
+                        <h4 class="h5 mb-2">Nuestros Símbolos</h4>
+                        <p class="text-muted small">El escudo, la bandera y el himno del Anglo Colombia School
+                            representan los pilares de nuestra comunidad: Liderazgo, Amor y Excelencia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     VALORES
+============================================================ -->
+    <section id="valores" class="section-pad">
+        <div class="container position-relative">
+            <div class="text-center mb-5 reveal">
+                <span class="section-eyebrow">Lo que nos define</span>
+                <h2 class="section-title text-white">Nuestros Valores</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-1">
+                    <div class="valor-card">
+                        <div class="valor-icon"><i class="bi bi-trophy-fill"></i></div>
+                        <div class="valor-name">Liderazgo</div>
+                        <div class="valor-desc">Formamos líderes con visión y propósito.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-2">
+                    <div class="valor-card">
+                        <div class="valor-icon"><i class="bi bi-heart-fill"></i></div>
+                        <div class="valor-name">Amor</div>
+                        <div class="valor-desc">Enseñamos con pasión y cuidado genuino.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-3">
+                    <div class="valor-card">
+                        <div class="valor-icon"><i class="bi bi-star-fill"></i></div>
+                        <div class="valor-name">Excelencia</div>
+                        <div class="valor-desc">Buscamos siempre la más alta calidad.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-4">
+                    <div class="valor-card">
+                        <div class="valor-icon"><i class="bi bi-shield-fill-check"></i></div>
+                        <div class="valor-name">Integridad</div>
+                        <div class="valor-desc">Actuamos con honestidad y coherencia.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-5">
+                    <div class="valor-card">
+                        <div class="valor-icon"><i class="bi bi-people-fill"></i></div>
+                        <div class="valor-name">Respeto</div>
+                        <div class="valor-desc">Valoramos la diversidad y la dignidad.</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-5">
+                    <div class="valor-card">
+                        <div class="valor-icon"><i class="bi bi-lightbulb-fill"></i></div>
+                        <div class="valor-name">Innovación</div>
+                        <div class="valor-desc">Aprendizaje del siglo XXI y pensamiento crítico.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     NIVELES ACADÉMICOS
+============================================================ -->
+    <section id="niveles" class="section-pad">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-eyebrow">Oferta Académica</span>
+                <h2 class="section-title">Niveles Educativos</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Acompañamos el crecimiento de tus hijos desde los primeros años hasta el
+                    grado 11, con un currículo bilingüe y de alta calidad.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-1">
+                    <div class="nivel-card">
+                        <div class="nivel-bg"
+                            style="background-image:url('images/students_classroom.png');background-position:top center;filter:hue-rotate(20deg);">
+                        </div>
+                        <div class="nivel-overlay"></div>
+                        <div class="nivel-arrow"><i class="bi bi-arrow-up-right"></i></div>
+                        <div class="nivel-content">
+                            <span class="nivel-badge">Preescolar</span>
+                            <h3 class="nivel-title">Preescolar</h3>
+                            <p class="nivel-ages"><i class="bi bi-person-standing me-1"></i>3 – 5 años</p>
+                            <p class="nivel-desc">Estimulación temprana en un ambiente lúdico y afectivo. Desarrollo del
+                                lenguaje, motricidad y dimensiones socio-emocionales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-2">
+                    <div class="nivel-card">
+                        <div class="nivel-bg"
+                            style="background-image:url('images/hero_campus.png');background-position:center;"></div>
+                        <div class="nivel-overlay"></div>
+                        <div class="nivel-arrow"><i class="bi bi-arrow-up-right"></i></div>
+                        <div class="nivel-content">
+                            <span class="nivel-badge">Primaria</span>
+                            <h3 class="nivel-title">Básica Primaria</h3>
+                            <p class="nivel-ages"><i class="bi bi-person-standing me-1"></i>6 – 10 años · Grados 1°–5°
+                            </p>
+                            <p class="nivel-desc">Fundamentos académicos sólidos con énfasis bilingüe. Pensamiento
+                                lógico, lectura comprensiva y formación en valores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-3">
+                    <div class="nivel-card">
+                        <div class="nivel-bg"
+                            style="background-image:url('images/campus_aerial.png');background-position:center;"></div>
+                        <div class="nivel-overlay"></div>
+                        <div class="nivel-arrow"><i class="bi bi-arrow-up-right"></i></div>
+                        <div class="nivel-content">
+                            <span class="nivel-badge">Secundaria</span>
+                            <h3 class="nivel-title">Básica Secundaria</h3>
+                            <p class="nivel-ages"><i class="bi bi-person-standing me-1"></i>11 – 14 años · Grados 6°–9°
+                            </p>
+                            <p class="nivel-desc">Profundización académica, pensamiento crítico y proyectos
+                                interdisciplinarios. Fortalecimiento de la autonomía y liderazgo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-4">
+                    <div class="nivel-card">
+                        <div class="nivel-bg"
+                            style="background-image:url('images/students_classroom.png');background-position:bottom;filter:hue-rotate(200deg);">
+                        </div>
+                        <div class="nivel-overlay"></div>
+                        <div class="nivel-arrow"><i class="bi bi-arrow-up-right"></i></div>
+                        <div class="nivel-content">
+                            <span class="nivel-badge">Media</span>
+                            <h3 class="nivel-title">Educación Media</h3>
+                            <p class="nivel-ages"><i class="bi bi-person-standing me-1"></i>15 – 17 años · Grados
+                                10°–11°</p>
+                            <p class="nivel-desc">Preparación universitaria con orientación vocacional. Proyectos de
+                                investigación y énfasis en Ciencias y Humanidades.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     MODELO PEDAGÓGICO
+============================================================ -->
+    <section id="modelo-pedagogico" class="section-pad">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-eyebrow">Pedagogía Conceptual</span>
+                <h2 class="section-title">Nuestro Modelo Pedagógico</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">La Pedagogía Conceptual integra tres dimensiones del ser humano para un
+                    aprendizaje verdaderamente significativo.</p>
+            </div>
+            <div class="row g-4 align-items-stretch">
+                <div class="col-md-4 reveal reveal-delay-1">
+                    <div class="modelo-card afectivo">
+                        <span class="modelo-num">01</span>
+                        <div class="modelo-icon-wrap"><i class="bi bi-heart-pulse-fill"></i></div>
+                        <h3 class="h4 mb-3">Dimensión Afectiva</h3>
+                        <p class="text-muted">Desarrollamos los intereses, motivaciones y actitudes. El componente
+                            emocional es el motor del aprendizaje. Estudiantes felices aprenden mejor.</p>
+                        <ul class="list-unstyled mt-3 small text-muted">
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-danger me-2"></i>Bienestar
+                                socioemocional</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-danger me-2"></i>Inteligencia
+                                emocional</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-danger me-2"></i>Motivación
+                                intrínseca</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal reveal-delay-2">
+                    <div class="modelo-card cognitivo">
+                        <span class="modelo-num">02</span>
+                        <div class="modelo-icon-wrap"><i class="bi bi-cpu-fill"></i></div>
+                        <h3 class="h4 mb-3">Dimensión Cognitiva</h3>
+                        <p class="text-muted">Potenciamos el conocimiento, la comprensión y el pensamiento crítico. Los
+                            estudiantes aprenden a aprender, construyendo conceptos desde lo concreto hasta lo
+                            abstracto.</p>
+                        <ul class="list-unstyled mt-3 small text-muted">
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary me-2"></i>Pensamiento
+                                crítico</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary me-2"></i>Competencias
+                                académicas</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary me-2"></i>Aprendizaje
+                                significativo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal reveal-delay-3">
+                    <div class="modelo-card expresivo">
+                        <span class="modelo-num">03</span>
+                        <div class="modelo-icon-wrap"><i class="bi bi-brush-fill"></i></div>
+                        <h3 class="h4 mb-3">Dimensión Expresiva</h3>
+                        <p class="text-muted">Fomentamos las habilidades, destrezas y aplicación del conocimiento. El
+                            estudiante demuestra lo aprendido de manera creativa e innovadora.</p>
+                        <ul class="list-unstyled mt-3 small text-muted">
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-warning me-2"></i>Arte y creatividad
+                            </li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-warning me-2"></i>Habilidades
+                                prácticas</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-warning me-2"></i>Proyectos de aula
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     SERVICIOS
+============================================================ -->
+    <section id="servicios" class="section-pad" style="background:var(--color-section-alt);">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-eyebrow">Lo que ofrecemos</span>
+                <h2 class="section-title">Servicios del Colegio</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center service-card-platform"
+                        style="transition:all .35s cubic-bezier(.4,0,.2,1);"
+                        onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 60px rgba(30,77,140,.18)';"
+                        onmouseout="this.style.transform='';this.style.boxShadow='';">
+                        <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-3"
+                            style="width:120px;height:64px;">
+                            <img src="images/logo_phidias.png" alt="Phidias" class="service-logo">
+                        </div>
+                        <h4 class="h5 mb-2">Servicios Académicos</h4>
+                        <p class="text-muted small">Phidias es nuestra plataforma de gestión académica integral, que
+                            facilita la comunicación entre el colegio, estudiantes y padres.</p>
+                        <a href="https://anglocolombia.phidias.co/" target="_blank"
+                            class="btn btn-sm btn-outline-primary rounded-pill mt-2">Ir a Phidias <i
+                                class="bi bi-box-arrow-up-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center service-card-platform"
+                        style="transition:all .35s cubic-bezier(.4,0,.2,1);"
+                        onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 60px rgba(30,77,140,.18)';"
+                        onmouseout="this.style.transform='';this.style.boxShadow='';">
+                        <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-3"
+                            style="width:120px;height:64px;">
+                            <img src="images/logo_biofood.png" alt="Biofood" class="service-logo">
+                        </div>
+                        <h4 class="h5 mb-2">Biofood — Alimentación</h4>
+                        <p class="text-muted small">Plataforma líder para la gestión del servicio de alimentación
+                            escolar, garantizando nutrición de calidad y control parental.</p>
+                        <a href="https://biofoodsoftware.co/" target="_blank"
+                            class="btn btn-sm btn-outline-primary rounded-pill mt-2">Ir a Biofood <i
+                                class="bi bi-box-arrow-up-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center"
+                        style="transition:all .35s cubic-bezier(.4,0,.2,1);"
+                        onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 60px rgba(30,77,140,.18)';"
+                        onmouseout="this.style.transform='';this.style.boxShadow='';">
+                        <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-3"
+                            style="width:64px;height:64px;background:rgba(30,77,140,.1);">
+                            <i class="bi bi-bus-front-fill fs-3" style="color:var(--color-primary);"></i>
+                        </div>
+                        <h4 class="h5 mb-2">Transporte Escolar</h4>
+                        <p class="text-muted small">Flota de buses modernos con rutas cubiertas en toda la ciudad.
+                            Sistema GPS en tiempo real y conductores certificados.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center"
+                        style="transition:all .35s cubic-bezier(.4,0,.2,1);"
+                        onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 60px rgba(30,77,140,.18)';"
+                        onmouseout="this.style.transform='';this.style.boxShadow='';">
+                        <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-3"
+                            style="width:64px;height:64px;background:rgba(240,165,0,.12);">
+                            <i class="bi bi-activity fs-3" style="color:var(--color-accent-dark);"></i>
+                        </div>
+                        <h4 class="h5 mb-2">Deporte y Bienestar</h4>
+                        <p class="text-muted small">Canchas deportivas, natación, atletismo y múltiples disciplinas para
+                            el desarrollo físico y el trabajo en equipo.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center"
+                        style="transition:all .35s cubic-bezier(.4,0,.2,1);"
+                        onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 60px rgba(30,77,140,.18)';"
+                        onmouseout="this.style.transform='';this.style.boxShadow='';">
+                        <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-3"
+                            style="width:64px;height:64px;background:rgba(30,77,140,.1);">
+                            <i class="bi bi-palette2 fs-3" style="color:var(--color-primary);"></i>
+                        </div>
+                        <h4 class="h5 mb-2">Actividades Extracurriculares</h4>
+                        <p class="text-muted small">Teatro, música, robótica, artes y clubes académicos. Formación
+                            integral más allá del aula de clases.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center"
+                        style="transition:all .35s cubic-bezier(.4,0,.2,1);"
+                        onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 60px rgba(30,77,140,.18)';"
+                        onmouseout="this.style.transform='';this.style.boxShadow='';">
+                        <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-3"
+                            style="width:64px;height:64px;background:rgba(240,165,0,.12);">
+                            <i class="bi bi-mortarboard-fill fs-3" style="color:var(--color-accent-dark);"></i>
+                        </div>
+                        <h4 class="h5 mb-2">Orientación Vocacional</h4>
+                        <p class="text-muted small">Programa de orientación profesional para grados 10° y 11°, con
+                            pruebas de aptitudes y conexión con universidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     NOTICIAS
+============================================================ -->
+    <section id="noticias" class="section-pad">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-end justify-content-between mb-5 gap-3 reveal">
+                <div>
+                    <span class="section-eyebrow">Actualidad</span>
+                    <h2 class="section-title mb-0">Noticias y Eventos</h2>
+                    <div class="title-underline" style="margin:1rem 0 0 0;"></div>
+                </div>
+                <a href="#noticias" class="btn btn-outline-primary rounded-pill px-4">Ver todas <i
+                        class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+            <div class="row g-4">
+                <!-- Noticia 1 -->
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="news-card">
+                        <div class="news-img-wrap">
+                            <img src="images/hero_campus.png" alt="Evaluaciones Periodo C" />
+                            <span class="news-cat-badge">Académico</span>
+                        </div>
+                        <div class="news-body">
+                            <div class="news-date"><i class="bi bi-calendar3"></i>Marzo 2026</div>
+                            <h4 class="news-title">Evaluaciones Periodo C — Calendario y Lineamientos</h4>
+                            <p class="news-excerpt">Comunicado oficial con las fechas y lineamientos para el periodo de
+                                evaluaciones C del año académico 2025–2026.</p>
+                            <a href="#noticias" class="news-link">Leer más <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Noticia 2 -->
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                    <div class="news-card">
+                        <div class="news-img-wrap">
+                            <img src="images/students_classroom.png" alt="Carnavalito 2026" />
+                            <span class="news-cat-badge"
+                                style="background:var(--color-primary);color:#fff;">Cultural</span>
+                        </div>
+                        <div class="news-body">
+                            <div class="news-date"><i class="bi bi-calendar3"></i>Febrero 2026</div>
+                            <h4 class="news-title">Carnavalito ACS 2026 — Celebración de nuestra tradición</h4>
+                            <p class="news-excerpt">El tradicional Carnavalito llenó de color y alegría nuestra
+                                institución el 13 de febrero. Revive los mejores momentos.</p>
+                            <a href="#noticias" class="news-link">Leer más <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Noticia 3 -->
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+                    <div class="news-card">
+                        <div class="news-img-wrap">
+                            <img src="images/campus_aerial.png" alt="Asamblea General de Padres" />
+                            <span class="news-cat-badge" style="background:#6c757d;color:#fff;">Institucional</span>
+                        </div>
+                        <div class="news-body">
+                            <div class="news-date"><i class="bi bi-calendar3"></i>Febrero 2026</div>
+                            <h4 class="news-title">Asamblea General de Padres de Familia 2026</h4>
+                            <p class="news-excerpt">Invitamos a todos los padres y acudientes a la Asamblea General del
+                                año escolar. Información sobre agenda y logística.</p>
+                            <a href="#noticias" class="news-link">Leer más <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     CERTIFICACIONES
+============================================================ -->
+    <section id="certificaciones" class="section-pad-sm">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-eyebrow">Avales y reconocimientos</span>
+                <h2 class="section-title">Certificaciones Institucionales</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-md-3 reveal reveal-delay-1">
+                    <div class="cert-logo">
+                        <i class="bi bi-award-fill" style="font-size:3rem;color:#1e4d8c;"></i>
+                        <span>ICFES A+</span>
+                        <small>Nivel Muy Superior</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal reveal-delay-2">
+                    <div class="cert-logo">
+                        <i class="bi bi-patch-check-fill" style="font-size:3rem;color:#f0a500;"></i>
+                        <span>Certificación EFQM</span>
+                        <small>European Foundation for Quality Management</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal reveal-delay-3">
+                    <div class="cert-logo">
+                        <i class="bi bi-translate" style="font-size:3rem;color:#1e4d8c;"></i>
+                        <span>Colegio Bilingüe</span>
+                        <small>Inglés — Español</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal reveal-delay-4">
+                    <div class="cert-logo">
+                        <i class="bi bi-calendar3" style="font-size:3rem;color:#f0a500;"></i>
+                        <span>Calendario B</span>
+                        <small>MEN — Colombia</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     CONTACTO
+============================================================ -->
+    <section id="contacto" class="section-pad">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <span class="section-eyebrow">Estamos para ayudarte</span>
+                <h2 class="section-title">Contáctanos</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Para información sobre admisiones, servicios o cualquier consulta, nuestro
+                    equipo está disponible para atenderte.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Info -->
+                <div class="col-lg-5 reveal-left">
+                    <div class="contact-info-card">
+                        <h4 class="h5 mb-4 fw-bold">Información de Contacto</h4>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <div class="contact-label">Dirección</div>
+                                <div class="contact-value">Carrera 51B Km. 9, Antigua Vía Puerto Colombia, Barranquilla,
+                                    Colombia</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+                            <div>
+                                <div class="contact-label">Teléfonos</div>
+                                <div class="contact-value">
+                                    <a href="tel:3165783001">316 578 3001</a><br>
+                                    <a href="tel:3579940">357 9940</a> &nbsp;|&nbsp; <a href="tel:3579506">357 9506</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+                            <div>
+                                <div class="contact-label">Correo Electrónico</div>
+                                <div class="contact-value"><a
+                                        href="mailto:secretaria@acsbarranquilla.edu.co">secretaria@acsbarranquilla.edu.co</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="bi bi-clock-fill"></i></div>
+                            <div>
+                                <div class="contact-label">Horario de Atención</div>
+                                <div class="contact-value">Lun – Vie: 7:00 am – 4:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="map-placeholder mt-3">
+                            <i class="bi bi-map-fill"></i>
+                            <span>Barranquilla, Atlántico, Colombia</span>
+                            <small style="color:rgba(255,255,255,.6);">Antigua Vía Puerto Colombia</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- Form -->
+                <div class="col-lg-7 reveal-right">
+                    <div class="contact-form-card">
+                        <h4 class="h5 mb-4 fw-bold">Envíanos un mensaje</h4>
+                        <form id="contactForm" novalidate>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <label for="nombreInput" class="form-label">Nombre completo</label>
+                                    <input type="text" class="form-control" id="nombreInput" placeholder="Tu nombre"
+                                        required />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="emailInput" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="emailInput"
+                                        placeholder="correo@ejemplo.com" required />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="telefonoInput" class="form-label">Teléfono</label>
+                                    <input type="tel" class="form-control" id="telefonoInput"
+                                        placeholder="Número de contacto" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="asuntoSelect" class="form-label">Asunto</label>
+                                    <select class="form-select" id="asuntoSelect">
+                                        <option value="" selected>Seleccionar...</option>
+                                        <option>Información de Admisiones</option>
+                                        <option>Información Académica</option>
+                                        <option>Servicios Complementarios</option>
+                                        <option>Trabaje con Nosotros</option>
+                                        <option>Otro</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="mensajeInput" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="mensajeInput" rows="4"
+                                        placeholder="Escribe tu consulta aquí..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn-contact-send">
+                                        <i class="bi bi-send-fill me-2"></i>Enviar mensaje
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     FOOTER
+============================================================ -->
+    <footer id="footer" class="py-5">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <!-- Brand -->
+                <div class="col-lg-4">
+                    <div class="footer-brand d-flex align-items-center gap-3 mb-3">
+                        <img src="images/logo_footer.svg" alt="Anglo Colombia School" class="footer-logo-svg">
+                        <div>
+                            <div class="brand-name">Anglo Colombia School</div>
+                            <div class="brand-tagline">Liderazgo · Amor · Excelencia</div>
+                        </div>
+                    </div>
+                    <p class="footer-desc">Institución bilingüe privada de Calendario B en Barranquilla. Certificados
+                        EFQM y Nivel A+ ICFES. Formamos líderes integrales para el mundo.</p>
+                    <div class="footer-social mt-3">
+                        <a href="https://www.facebook.com/people/Anglo-Barranquilla/pfbid03LbtkAFYNjwuLagJvcqrqCpSSdzzQQSn5P8LFYuLoKNgd3zZ11ckNonPGKxxf9iEl/?pnref=story"
+                            class="social-btn" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/acsbarranquilla/" class="social-btn" target="_blank"
+                            aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://x.com/acsbarranquilla" class="social-btn" target="_blank"
+                            aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://wa.me/573165783001" class="social-btn" target="_blank" aria-label="WhatsApp"><i
+                                class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <!-- Links 1 -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="footer-heading">El Colegio</div>
+                    <ul class="footer-links">
+                        <li><a href="#about"><i class="bi bi-chevron-right"></i>¿Quiénes Somos?</a></li>
+                        <li><a href="#mision-vision"><i class="bi bi-chevron-right"></i>Misión y Visión</a></li>
+                        <li><a href="#valores"><i class="bi bi-chevron-right"></i>Valores</a></li>
+                        <li><a href="#certificaciones"><i class="bi bi-chevron-right"></i>Certificaciones</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right"></i>Directivos</a></li>
+                    </ul>
+                </div>
+                <!-- Links 2 -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="footer-heading">Académico</div>
+                    <ul class="footer-links">
+                        <li><a href="#niveles"><i class="bi bi-chevron-right"></i>Preescolar</a></li>
+                        <li><a href="#niveles"><i class="bi bi-chevron-right"></i>Básica Primaria</a></li>
+                        <li><a href="#niveles"><i class="bi bi-chevron-right"></i>Secundaria</a></li>
+                        <li><a href="#niveles"><i class="bi bi-chevron-right"></i>Educación Media</a></li>
+                        <li><a href="#modelo-pedagogico"><i class="bi bi-chevron-right"></i>Modelo Pedagógico</a></li>
+                    </ul>
+                </div>
+                <!-- Links 3 -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="footer-heading">Institucional</div>
+                    <ul class="footer-links">
+                        <li><a href="https://www.acsbarranquilla.edu.co/wp-content/uploads/2025/08/Manual-de-convivencia-2025-2026.pdf"
+                                target="_blank"><i class="bi bi-chevron-right"></i>Manual de Convivencia</a></li>
+                        <li><a href="https://www.acsbarranquilla.edu.co/wp-content/uploads/2020/12/reglamento_interno_trabajo.pdf"
+                                target="_blank"><i class="bi bi-chevron-right"></i>Reglamento Interno</a></li>
+                        <li><a href="#contacto"><i class="bi bi-chevron-right"></i>PQRSD</a></li>
+                        <li><a href="#contacto"><i class="bi bi-chevron-right"></i>Trabaje con Nosotros</a></li>
+                    </ul>
+                </div>
+                <!-- Contact mini -->
+                <div class="col-6 col-md-12 col-lg-2">
+                    <div class="footer-heading">Contacto</div>
+                    <ul class="footer-links">
+                        <li><a href="tel:3165783001"><i class="bi bi-telephone"></i>316 578 3001</a></li>
+                        <li><a href="tel:3579940"><i class="bi bi-telephone"></i>357 9940 / 9506</a></li>
+                        <li><a href="mailto:secretaria@acsbarranquilla.edu.co"><i
+                                    class="bi bi-envelope"></i>secretaria@acs...</a></li>
+                        <li><a href="#contacto"><i class="bi bi-geo-alt"></i>Antigua Vía Pto. Colombia</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider" />
+            <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 footer-bottom">
+                <span>© 2026 Anglo Colombia School — Barranquilla, Colombia. Todos los derechos reservados.</span>
+                <span><a href="#" class="text-muted me-3" style="font-size:.8rem;">Políticas de Privacidad</a><a
+                        href="#" class="text-muted" style="font-size:.8rem;">Términos de Uso</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" aria-label="Volver arriba"><i class="bi bi-arrow-up"></i></button>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
